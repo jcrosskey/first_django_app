@@ -1,0 +1,11 @@
+/* change the text color of the list */
+li a {
+    color: green;
+}
+/* Add a background image
+   Always use relative path for the static files so that when
+   files move w don't have to change a lot of paths.
+*/
+body {
+    background: white url("images/background.gif") no-repeat;
+}
